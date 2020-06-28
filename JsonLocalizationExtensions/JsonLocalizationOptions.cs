@@ -13,7 +13,6 @@ namespace JsonLocalizationExtensions
 
         /// <summary>
         /// RootNamespace
-        /// use entry assembly name by default
         /// </summary>
         public string RootNamespace { get; set; }
     }

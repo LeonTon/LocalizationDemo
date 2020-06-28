@@ -15,6 +15,7 @@ namespace JsonLocalizationExtensions
             new ConcurrentDictionary<string, JsonStringLocalizer>();
 
         private readonly ILoggerFactory _loggerFactory;
+
         private readonly JsonLocalizationOptions _localizationOptions;
 
         public JsonStringLocalizerFactory(IOptions<JsonLocalizationOptions> localizationOptions, ILoggerFactory loggerFactory)
